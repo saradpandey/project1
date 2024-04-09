@@ -1,0 +1,57 @@
+*{ 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+a{
+    text- decoration : none;
+}
+ul
+{
+    list font-style: none;
+}
+body
+{
+    font-family:" Red Hat Display",sans-serif;
+}
+.top 
+{
+    background: #1A2231;
+    padding: 7px 0;
+    font-size: 14px;
+ }
+ .con
+ {
+    max-width: 1290px;
+    margin: auto;
+ }
+ .flex
+ {
+    display: flex;
+    justify-content: space-between;
+ }
+ .top ul
+ {
+    display: flex;
+    gap: 20px;
+ }
+ header
+ {
+    padding: 25px 0;
+ }
+ nav ul
+ {
+    display: flex;
+    gap: 20px;
+ } 
+nav a{
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn
+{ boarder:1px solid #DC363c;  
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
